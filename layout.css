@@ -1,0 +1,429 @@
+﻿/* ---reset.css--- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ---reset.css--- */
+
+html {	
+	font-family:Helvetica, sans-serif;
+	-webkit-text-size-adjust:none;
+	background-color:#CCC;
+		
+}
+
+body{
+		background-image:url(images/bg.png);
+
+}
+
+/* --電腦版型------------------------------------- */
+
+#TOP-MENU{
+	display:none;
+}
+
+#TOP-MENU .WORD{
+	width:240px;
+
+	padding:5px ;
+}
+
+
+#SIDEBAR .WORD {
+		width:230px;
+	height:auto;
+	padding:205px 0px 10px 15px;
+	font-size:16px;
+	color:#abc4bd;
+}
+
+#SIDEBAR .WORD P{
+	font-size:16px;
+	color:#abc4bd;
+}
+
+#SIDEBAR{
+	width:240px;
+	height:800px;
+	margin:0 auto;
+	padding:0 20px 0 0 ;
+	float:left;
+	
+	}
+	
+#BANNER{
+	width:240px;
+	height:260px;
+	margin:0 auto;
+	background-image:url(images/logol.jpg);
+	background-repeat:no-repeat;
+		background-color:#FFF;
+	border-color:#FFF;
+	border-size:10px;
+}
+
+
+#NAV{
+	width:240px;
+	height:300px;
+	background-color:#FFF;
+}
+
+#NAV #XX{
+	display:none;
+}
+
+#NAV ul{
+	width:200px;
+	height:50px;
+}
+
+#NAV li{
+	float:none;
+}
+
+#NAV li a{
+	display:block;
+	width:210px;
+	line-height:60px;
+	text-align:center;
+	text-decoration:none;
+	color:#222;	
+}
+
+#NAV li a:hover{
+	border-bottom:2px solid #abc4bd;
+}
+
+#CONTENT{
+	width:1100px;
+	margin:0 auto;
+	overflow:hidden;
+	padding:40px;
+	background-color:#FFF;
+}
+
+#CONTENT .WORD{
+	width:1000px;
+	margin:0 auto;
+	padding:0px;
+	clear:both;
+}
+#CONTENT .WORD p{
+	font-size:16px;
+	line-height:1.7;
+	color:#abc4bd;
+	text-align:center;
+}
+
+
+#CONTENT-1{
+	width:800px;
+	overflow:hidden;
+
+	padding:0;
+		    background-color:#f5f5f5;
+}
+
+#CONTENT-1 img{
+		padding:0px;
+		width:100%
+	}
+
+#CONTENT-1 .WORD{
+	width:200px;
+
+	padding:40px 40px;
+}
+
+#CONTENT-1 .WORD p{
+	font-size:16px;
+	line-height:1.7;
+	color:#333;
+}
+
+#CONTENT-2{
+		width:781px;
+		height:280px;
+		overflow:hidden;
+		padding:10px;
+		margin:0;
+	    background-color:#f5f5f5;
+}
+
+#CONTENT-2 .BOX{
+	float:left;
+	width:240px;
+	margin-left:17px;
+	
+}
+
+#CONTENT-2 .BOX h3{
+	font-size:2em;
+	line-height:2;
+	border-bottom:2px solid #abc4bd;
+	color:#abc4bd;
+	text-align:center;
+}
+
+#CONTENT-2 .BOX p{
+	font-size:13px;
+	line-height:1.8;
+	padding:5px;
+	color:#abc4bd;
+}
+
+#DOWN{
+	clear:both;
+	width:1020px;
+	margin:20px auto;
+	background-color:#AAA;
+	padding:20px 0px;
+}
+
+#DOWN p{
+	font-size:13px;
+	text-align:center;
+	line-height:1.8;
+	color:#FFF;
+}
+
+
+/* --手機版型------------------------------------- */
+
+@media screen and (max-width: 736px) {
+	
+*{
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+html,body{
+	-webkit-text-size-adjust:none;
+}
+	
+#TOP-MENU{
+	display:block;
+	width:100%;
+	height:60px;
+	position:relative;
+	background-color:#FFF;
+}
+
+#TOP-MENU h4{
+	display:block;
+	width:60px;
+	height:40px;
+	background-image:url(images/btn.jpg);
+	position:absolute;
+	right:5px;
+	top:15px;
+	text-indent:-9999px;
+}
+
+#SIDEBAR{
+    width:100%;
+	min-width:320px;
+	height:320px;
+	margin:0 auto;
+	padding:0;
+	background-color:#FFF;
+	line-height:350px;
+	}
+#BANNER{
+	width:100%;	
+	min-width:320px;
+	height:300;	
+	margin:0 auto;
+	background-image:url(images/logo.jpg);
+	background-color:#FFF;
+	background-repeat:no-repeat;
+	background-position:center;
+	}
+
+#NAV{
+	position:fixed;
+	top:0;
+	z-index:888;
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	background-color:rgba(0,0,0,0.7);
+	display:none;
+}
+
+#NAV #XX{
+	display:block;
+	width:30px;
+	height:30px;
+	background-color:#FFF;
+	border-radius:30px;
+	text-align:center;
+	line-height:30px;
+	position:absolute;
+	right:-10px;
+	top:-10px;
+}
+
+#NAV ul{
+	width:260px;
+	height:auto;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-130px;
+	margin-top:-130px;
+}
+
+#NAV li{
+	width:100%;
+	float:none;
+}
+
+#NAV li a{
+	display:block;
+	width:100%;
+	line-height:50px;
+	text-align:center;
+	text-decoration:none;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	color:#abc4bd;	
+	
+}
+
+#NAV li a:hover{
+	border:1px solid #CCC;
+}
+
+#CONTENT{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	padding:40px;
+	background-color:#FFF;
+}
+
+#CONTENT .WORD{
+	width:100%;
+	margin:0 auto;
+	padding:0px;
+}
+#CONTENT .WORD p{
+	font-size:16px;
+	line-height:1.7;
+	color:#abc4bd;
+	text-align:center;
+}
+
+#CONTENT-1{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	background-color:#FFF;
+}
+
+#CONTENT-1 img{
+	float:none;
+	margin:0;
+	width:100%;
+	height:auto;
+}
+
+#CONTENT-1 .WORD{
+	width:100%;
+	float:none;
+	padding:10px;
+}
+
+#CONTENT-1 .WORD p{
+	font-size:18px;
+	line-height:1.6;
+	color:#333;
+}
+#CONTENT-2{
+	clear:none;
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	overflow:hidden;
+	 background-color:#f5f5f5;
+	padding:20px 0px;
+}
+
+#CONTENT-2 .BOX{
+	float:none;
+	width:100%;
+	margin:0;
+	padding:10px 40px;
+}
+
+#CONTENT-2 .BOX h3{
+	font-size:2em;
+	line-height:2;
+	border-bottom:2px solid #abc4bd;
+	color:#abc4bd;
+	text-align:center;
+}
+
+#CONTENT-2 .BOX p{
+	font-size:17px;
+	line-height:1.8;
+	padding:20px;
+	color:#333;
+}
+
+#DOWN{
+	clear:both;
+	width:100%;
+	margin:20px auto;
+	background-color:#AAA;
+	padding:20px 0px;
+}
+
+#DOWN p{
+	font-size:13px;
+	text-align:center;
+	line-height:1.8;
+	color:#FFF;
+}
